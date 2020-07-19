@@ -1,251 +1,299 @@
 <!DOCTYPE HTML>
 <html>
-		<head>
-			<title>Yaniko | Coffee Break - Vending Machine </title>
-			<meta charset="UTF-8"> <!-- Pour les accents francais -->
-		<!--<meta name="identifier-URL" content="" /> -->
-			<meta name="robots" content="Index,Follow" /> <!-- Robots Google -->
-			<meta name="revisit-after" content="30 days" />
-			<meta name="keywords" lang="en" content="supplying coffee, supplier of food services, suppliers of vending machines in montreal, vending machine, coffee break, coffee, supplier fo coffee in montreal, supply, yaniko, yanicho, sale or rent coffee machine, sale or rent coffeemaker, maintenance of vending machine, supplier for cafeteria, filling of vending machines" />
-			<meta name="description" lang="en" content="Yaniko - Sales, rental, services and filling vending machines in the greater Montreal area. Coffee Break Services. Open 24/7" /> <!-- Description Google -->
+
+<head>
+	<title>Yaniko | Coffee Break - Vending Machine </title>
+	<meta charset="UTF-8"> <!-- Pour les accents francais -->
+	<!--<meta name="identifier-URL" content="" /> -->
+	<meta name="robots" content="Index,Follow" /> <!-- Robots Google -->
+	<meta name="revisit-after" content="30 days" />
+	<meta name="keywords" lang="en"
+		content="supplying coffee, supplier of food services, suppliers of vending machines in montreal, vending machine, coffee break, coffee, supplier fo coffee in montreal, supply, yaniko, yanicho, sale or rent coffee machine, sale or rent coffeemaker, maintenance of vending machine, supplier for cafeteria, filling of vending machines" />
+	<meta name="description" lang="en"
+		content="Yaniko - Sales, rental, services and filling vending machines in the greater Montreal area. Coffee Break Services. Open 24/7" />
+	<!-- Description Google -->
 
 
-		<!-- Icone -->
-			 <link rel="shortcut icon" href="../images/favicon-yaniko-entreprise-service-pause-cafe.ico" type="image/ico" />
-			 <link rel="icon" href="../images/favicon-yaniko-entreprise-service-pause-cafe.ico" type="image/ico" /> 
+	<!-- Icone -->
+	<link rel="shortcut icon" href="../images/favicon-yaniko-entreprise-service-pause-cafe.ico" type="image/ico" />
+	<link rel="icon" href="../images/favicon-yaniko-entreprise-service-pause-cafe.ico" type="image/ico" />
 
-		<link rel="stylesheet" href="../css/distributrice.css">	  <!-- CSS -->
-		
-		<script src="vendingmachine.js?ver=1.0"></script>	 	<!-- JavaScript -->
-		
-		<link href='http://fonts.googleapis.com/css?family=Exo+2:500' rel='stylesheet' type='text/css'>   <!-- Google Fonts pour le titre -->
-		
+	<link rel="stylesheet" href="../css/distributrice.css"> <!-- CSS -->
 
-		</head> <!-- Fin Tete -->
+	<script src="vendingmachine.js?ver=1.0"></script> <!-- JavaScript -->
+
+	<link href='http://fonts.googleapis.com/css?family=Exo+2:500' rel='stylesheet' type='text/css'>
+	<!-- Google Fonts pour le titre -->
 
 
-	<body onload="SliderAutomatic()" >
+</head> <!-- Fin Tete -->
 
-	
+
+<body onload="SliderAutomatic()">
+
+
 	<div id="container">
-		
 
-		<div id="entete">    <!-- EN-TETE DU SITE-->
-			
-				<div id="machine1"> <!-- Premiere section de l'en-tete-->
-				
-					<div id="nomCie">	
-							<a href="index.html"><img src="../images/logo-yaniko.png" id="imgLOGO" alt="Yaniko-Cafe"/></a>			
-							<h1 id="titreEnTete"> Yaniko inc. </h1>
-							<h5 id="SoustitreEnTete"> Excellence has a new name </h5>
-					</div>		
-						
-				</div>
-				
-				
-				
-				
-				<div id="machine2">  <!--Deuxieme section, menu de navigation-->
-					<table id="navigation">
-						<tr>
-						<td class="navTD"><a href="index.html"> Home</a> </td>
-						<td class="navTD" onclick="nosServices()"> <a href="#Services"> Services </a> </td>
-						<td class="navTD" onclick="nosMachines(tabDistributrices)"> <a href="#Equipment">Vending Machines </a> </td>
-						<td class="navTD" onclick="NosProduits()"> <a href="#Products">Products </a></td>
-						<td class="navTD" onclick="ContacterYaniko()"> <a href="#Contact">Contact</a></td>
-						<td class="navTD" onclick="AproposYaniko()" > <a href="#AboutUs">About Us</a></td>	
-						</tr>
-					</table>
+
+		<div id="entete">
+			<!-- EN-TETE DU SITE-->
+
+			<div id="machine1">
+				<!-- Premiere section de l'en-tete-->
+
+				<div id="nomCie">
+					<a href="index.html"><img src="../images/logo-yaniko.png" id="imgLOGO" alt="Yaniko-Cafe" /></a>
+					<h1 id="titreEnTete"> Yaniko inc. </h1>
+					<h5 id="SoustitreEnTete"> Excellence has a new name </h5>
 				</div>
 
-		</div> <!-- Fin en-tete --> 
-
-	
-		<div id="corps" >
-		
-			<!--DIV contenant le menu des choix a la gauche -->
-			<div id="menu">  
-			
-				<h4> CONTACT US</h4>
-				<img src="../images/yaniko-telephone.png" alt="Contacter Yaniko" class="telephoneGauche" /> 
-				<h2 class="numeroPhoneGauche"> 450.441.2111 </h2>
-			<br><br>
-				
-				<table id="nav-menu"> <!--Tableau pour les differents choix du menu -->
-				
-					<tr> 
-						<td class='tdNavMenu' onclick="nosServices()"><img src='../images/puces-test.png' alt="Nos Services" class="puceMenuGauche"/>Services</td> 
-					</tr>
-				
-					<tr> 
-						<td class='tdNavMenu' onclick="NosProduits()"><img src='../images/puces-test.png' alt="Nos Services" class="puceMenuGauche"/>Products </td>
-					</tr>
-				
-					<tr> 
-						<td class='tdNavMenu' onclick="nosMachines(tabDistributrices)"><img src='../images/puces-test.png' alt="Nos Services" class="puceMenuGauche"/>Equipements</td>
-						
-					</tr>
-				
-					<tr> 
-						<td class='tdNavMenu' onclick="AproposYaniko()"><img src='../images/puces-test.png' alt="Nos Services" class="puceMenuGauche"/>Company</td>
-						
-					</tr>
-				</table> <br>
-				
-				
-				<div class="produitsFrais"> 
-						Available 
-						<img src="../images/service-pause-cafe-disponible-en-tout-temps-2.png" class="imgBasMenuGauche" title="Service disponible 24/7" alt="Service 24/7" />  
-				</div>
-					<br><br> 
-
-					
-				<div class="produitsFrais"> 
-						<img class="imgBasMenuGauche2"  src="../images/nous-couvrons-la-grande-region-de-mtl.png" alt="Services Distributeurs region de Montreal" title="Montréal, Rive-Nord, Rive-Sud" /> 
-				
-						Available in theses areas : 
-							<dl>
-								<dt>Montreal </dt>
-								<dt>Laval </dt>
-								<dt>South Shore</dt>
-								<dt>Monteregie</dt>
-								<dt>Estrie</dt>
-								<dd> &nbsp;</dd>
-							</dl>	
-				</div>
-			
-			</div>  <!--Fin MENU -->
-		
-		
-		    <div id="affichage">	
-			<h1 id="titrePrincipalAccueil">Yaniko</h1>
-			<h2 id="SousTitreAccueil"> Vending Machine Services / Coffee Break </h2>
-					
-					<!-- Image en style est la premiere image a apparaitre dans le slider	  -->
-					 <div id="slider" style=" background-image:url('slider_eng/yaniko-coffee-break-food-service.gif');" onmouseover="apparaitre('slider-next'), apparaitre('slider-prev'), apparaitre('descriptionSlider')" onmouseout="disparaitre('slider-next'), disparaitre('slider-prev'), disparaitre('descriptionSlider')">
-
-
-						<p id="descriptionSlider"> <span class="textedescriptionSlider">  </span> </p>    <!--Description de la premiere image --> 
-						<div id="slider-next"  onclick="nextSliderImage()"><img src="../images/next-slider.png" class="flecheSlider" alt="next-image" title="Next"/></div>
-						<div id="slider-prev"  onclick="previousSliderImage()"><img src="../images/prev-slider.png" class="flecheSlider" alt="previous-image" title="Previous"/></div>
-					</div>
-		
-					<div id="presentationYaniko">
-						For over 50 years, Yaniko Service aux Entreprises has specialized in supplying quality products for vending machines and coffee makers, in addition of those intended for the well being of your workplace  
-					</div>
-					
-					<p id="ParagraphDescAccueil"> Let your business of any size try the Yaniko experience, so you can see how our services are focused on the respect of our customers, the kindness of our team, the freshness of our products and all of these at a very competitive price </p>
-						
-					<br>
-					<div class="iconephoto1">
-						<img class="imgIconePhoto" src="../images/remplissage-distributrice-montreal-laval-rivesud.png" alt="Filling, Sale or Location of Vending Machines" title="Filling, Sale or Location of Vending Machines" />  
-					</div>		
-						
-					<div class="explications1">
-						<h2> Filling Vending Machines </h2>
-						<p> Yaniko handles maintenance and filling of any type of vending machines with a <span style=" font-weight:bold; font-style:italic;">personalized solution</span> depending on your type of business or institution. Also, we offer vending machines, coffee makers and thermos machines for sale or rent  </p>
-					</div>		
-					
-					<div class="iconephoto2">
-						<img class="imgIconePhoto" src="../images/remplissage-alimentaire-yaniko-montreal-region.jpg" alt="Yaniko - Food Services" title="Food Services" />
-					</div>		
-					
-					<div class="explications2">
-						<h2> Food Services </h2>
-						<p>Whether it is for coffee break, supplying of coffee, sanitary products or soft drinks we always offer a <span style=" font-weight:bold; font-style:italic;">professional service at a good price</span>. Or services are available for the greater Montreal area, North Shore, South Shore, and Estrie   </p>
-					</div>	
-
-					
-					<div class="iconephoto1">
-						<img class="imgIconePhoto" src="../images/produits-frais-tout-temps-yaniko.jpg" alt="Yaniko - Service Rapide" title="Always Fresh" />
-					</div>		
-						
-					<div class="explications1">
-						<h2>Fresh Products </h2>
-						<p> We only fill with <span style="font-weight:bold; font-style:italic;">the freshest products</span> in the industry. Chips, chocolates, coffee, soft drinks, we can get you all the products you want  </p>
-					</div>	
-						
-					
-					<div id="PourquoiYaniko">
-						<h2> Why Yaniko ? </h2>	
-								<div id="RaisonYaniko1">
-									<img src="../images/service-tout-en-1.png" alt="All in One" title=""/>
-										<h3>All In One</h3>
-										<p>With our <b>All in One</b> service we will take care of all the necessary supplies for a harmonious life in working environment   </p>
-								</div>
-								
-								<div id="RaisonYaniko2">
-									<img src="../images/service-24heures-7jours.png" alt="Available 24/7" title="24/7"/>
-										<h3>Available 24/7</h3>
-										<p>Our techniciens are available at all time for repair and maintenance </p>
-								</div>
-								
-								<div id="RaisonYaniko3">
-									<img src="../images/yaniko-service-rapide.png" alt="Fast Break Coffee Service" title=""/>
-										<h3>Fast</h3>
-										<p>Fast and professional service in less than 24 hours that will certainly meet all your needs in term of supplying</p>
-								</div>
-					</div>	
-						<br><br>
-						
-			</div>   <!-- Fin Affichage -->
-		
-			
-	</div>   <!-- Fin Corps -->
-	
-				<!-- BAS PAGE -->
-				<div id="bas">
-							<div class="basDiv" style="border-left:none;">
-								<img class="logoBasPage" src="../images/caffe.png" alt="yaniko-service-distributeurs" title="450.441.2111"  /> <h5>Yaniko inc.</h5>
-							</div>
-							
-							<div class="basDiv">
-								<h3>Available Services</h3>
-										<dl>
-												<dt>Coffee Break Services</dt>
-												<dt>Food Services</dt>
-												<dt>Solutions for Rest Area</dt>
-												<dt>Filling of Vending Machines</dt>	
-												<dt>Sales, Rental and Repair of Vending Machines</dt>
-												<dd> &nbsp;</dd>
-										</dl>
-							
-							</div>
-							<div class="basDiv">
-									<h3>Yaniko inc.</h3>
-										<dl>
-												<dt>200-550 ch. du Golf</dt>
-												<dt>Montréal, Québec <em>H3E 1A8</em></dt>
-												<dt>CP 63148</dt>
-												<dt><strong>450.441.2111</strong></dt>
-												<dt><a href="mailto:yanikocanada@gmail.com">yanikocanada@gmail.com</a></dt>
-												<dd> &nbsp;</dd>
-												<dt><a href="../index.html"><strong><u>[ Français ]</u></strong></a></dt>
-												<dd> &nbsp;</dd>
-										</dl>
-							</div>
-							
-							
-							
-						<h6>  Yaniko inc.- Sales, rental, services and filling vending machines in the greater Montreal area. Coffee Break Services. </br>Open 24/7
-						<br>  @Yaniko.inc - Copyright						</h6>
-				</div>
-
-	
-</div>	 <!-- Fin containeur -->
-
-
-
-			<div id="infoHaut"> <!-- Numero Telephone Haut de page -->
-					<a href="../index.html"><h5> [ Français ]</h5></a> &nbsp;&nbsp;  <strong>|</strong> &nbsp; &nbsp; 
-					<h5> 450.411.2111 </h5>  
 			</div>
 
-			
-			
-	
-			
-			
-			
-	</body>
+
+
+
+			<div id="machine2">
+				<!--Deuxieme section, menu de navigation-->
+				<table id="navigation">
+					<tr>
+						<td class="navTD"><a href="index.html"> Home</a> </td>
+						<td class="navTD" onclick="nosServices()"> <a href="#Services"> Services </a> </td>
+						<td class="navTD" onclick="nosMachines(tabDistributrices)"> <a href="#Equipment">Vending
+								Machines </a> </td>
+						<td class="navTD" onclick="NosProduits()"> <a href="#Products">Products </a></td>
+						<td class="navTD" onclick="ContacterYaniko()"> <a href="#Contact">Contact</a></td>
+						<td class="navTD" onclick="AproposYaniko()"> <a href="#AboutUs">About Us</a></td>
+					</tr>
+				</table>
+			</div>
+
+		</div> <!-- Fin en-tete -->
+
+
+		<div id="corps">
+
+			<!--DIV contenant le menu des choix a la gauche -->
+			<div id="menu">
+
+				<h4> CONTACT US</h4>
+				<img src="../images/yaniko-telephone.png" alt="Contacter Yaniko" class="telephoneGauche" />
+				<h2 class="numeroPhoneGauche"> 123.911.9111 </h2>
+				<br><br>
+
+				<table id="nav-menu">
+					<!--Tableau pour les differents choix du menu -->
+
+					<tr>
+						<td class='tdNavMenu' onclick="nosServices()"><img src='../images/puces-test.png'
+								alt="Nos Services" class="puceMenuGauche" />Services</td>
+					</tr>
+
+					<tr>
+						<td class='tdNavMenu' onclick="NosProduits()"><img src='../images/puces-test.png'
+								alt="Nos Services" class="puceMenuGauche" />Products </td>
+					</tr>
+
+					<tr>
+						<td class='tdNavMenu' onclick="nosMachines(tabDistributrices)"><img
+								src='../images/puces-test.png' alt="Nos Services" class="puceMenuGauche" />Equipements
+						</td>
+
+					</tr>
+
+					<tr>
+						<td class='tdNavMenu' onclick="AproposYaniko()"><img src='../images/puces-test.png'
+								alt="Nos Services" class="puceMenuGauche" />Company</td>
+
+					</tr>
+				</table> <br>
+
+
+				<div class="produitsFrais">
+					Available
+					<img src="../images/service-pause-cafe-disponible-en-tout-temps-2.png" class="imgBasMenuGauche"
+						title="Service disponible 24/7" alt="Service 24/7" />
+				</div>
+				<br><br>
+
+
+				<div class="produitsFrais">
+					<img class="imgBasMenuGauche2" src="../images/nous-couvrons-la-grande-region-de-mtl.png"
+						alt="Services Distributeurs region de Montreal" title="Montréal, Rive-Nord, Rive-Sud" />
+
+					Available in theses areas :
+					<dl>
+						<dt>Montreal </dt>
+						<dt>Laval </dt>
+						<dt>South Shore</dt>
+						<dt>Monteregie</dt>
+						<dt>Estrie</dt>
+						<dd> &nbsp;</dd>
+					</dl>
+				</div>
+
+			</div>
+			<!--Fin MENU -->
+
+
+			<div id="affichage">
+				<h1 id="titrePrincipalAccueil">Yaniko</h1>
+				<h2 id="SousTitreAccueil"> Vending Machine Services / Coffee Break </h2>
+
+				<!-- Image en style est la premiere image a apparaitre dans le slider	  -->
+				<div id="slider" style=" background-image:url('slider_eng/yaniko-coffee-break-food-service.gif');"
+					onmouseover="apparaitre('slider-next'), apparaitre('slider-prev'), apparaitre('descriptionSlider')"
+					onmouseout="disparaitre('slider-next'), disparaitre('slider-prev'), disparaitre('descriptionSlider')">
+
+
+					<p id="descriptionSlider"> <span class="textedescriptionSlider"> </span> </p>
+					<!--Description de la premiere image -->
+					<div id="slider-next" onclick="nextSliderImage()"><img src="../images/next-slider.png"
+							class="flecheSlider" alt="next-image" title="Next" /></div>
+					<div id="slider-prev" onclick="previousSliderImage()"><img src="../images/prev-slider.png"
+							class="flecheSlider" alt="previous-image" title="Previous" /></div>
+				</div>
+
+				<div id="presentationYaniko">
+					For over 50 years, Yaniko Service aux Entreprises has specialized in supplying quality products for
+					vending machines and coffee makers, in addition of those intended for the well being of your
+					workplace
+				</div>
+
+				<p id="ParagraphDescAccueil"> Let your business of any size try the Yaniko experience, so you can see
+					how our services are focused on the respect of our customers, the kindness of our team, the
+					freshness of our products and all of these at a very competitive price </p>
+
+				<br>
+				<div class="iconephoto1">
+					<img class="imgIconePhoto" src="../images/remplissage-distributrice-montreal-laval-rivesud.png"
+						alt="Filling, Sale or Location of Vending Machines"
+						title="Filling, Sale or Location of Vending Machines" />
+				</div>
+
+				<div class="explications1">
+					<h2> Filling Vending Machines </h2>
+					<p> Yaniko handles maintenance and filling of any type of vending machines with a <span
+							style=" font-weight:bold; font-style:italic;">personalized solution</span> depending on your
+						type of business or institution. Also, we offer vending machines, coffee makers and thermos
+						machines for sale or rent </p>
+				</div>
+
+				<div class="iconephoto2">
+					<img class="imgIconePhoto" src="../images/remplissage-alimentaire-yaniko-montreal-region.jpg"
+						alt="Yaniko - Food Services" title="Food Services" />
+				</div>
+
+				<div class="explications2">
+					<h2> Food Services </h2>
+					<p>Whether it is for coffee break, supplying of coffee, sanitary products or soft drinks we always
+						offer a <span style=" font-weight:bold; font-style:italic;">professional service at a good
+							price</span>. Or services are available for the greater Montreal area, North Shore, South
+						Shore, and Estrie </p>
+				</div>
+
+
+				<div class="iconephoto1">
+					<img class="imgIconePhoto" src="../images/produits-frais-tout-temps-yaniko.jpg"
+						alt="Yaniko - Service Rapide" title="Always Fresh" />
+				</div>
+
+				<div class="explications1">
+					<h2>Fresh Products </h2>
+					<p> We only fill with <span style="font-weight:bold; font-style:italic;">the freshest
+							products</span> in the industry. Chips, chocolates, coffee, soft drinks, we can get you all
+						the products you want </p>
+				</div>
+
+
+				<div id="PourquoiYaniko">
+					<h2> Why Yaniko ? </h2>
+					<div id="RaisonYaniko1">
+						<img src="../images/service-tout-en-1.png" alt="All in One" title="" />
+						<h3>All In One</h3>
+						<p>With our <b>All in One</b> service we will take care of all the necessary supplies for a
+							harmonious life in working environment </p>
+					</div>
+
+					<div id="RaisonYaniko2">
+						<img src="../images/service-24heures-7jours.png" alt="Available 24/7" title="24/7" />
+						<h3>Available 24/7</h3>
+						<p>Our techniciens are available at all time for repair and maintenance </p>
+					</div>
+
+					<div id="RaisonYaniko3">
+						<img src="../images/yaniko-service-rapide.png" alt="Fast Break Coffee Service" title="" />
+						<h3>Fast</h3>
+						<p>Fast and professional service in less than 24 hours that will certainly meet all your needs
+							in term of supplying</p>
+					</div>
+				</div>
+				<br><br>
+
+			</div> <!-- Fin Affichage -->
+
+
+		</div> <!-- Fin Corps -->
+
+		<!-- BAS PAGE -->
+		<div id="bas">
+			<div class="basDiv" style="border-left:none;">
+				<img class="logoBasPage" src="../images/caffe.png" alt="yaniko-service-distributeurs"
+					title="123.911.9111" />
+				<h5>Yaniko inc.</h5>
+			</div>
+
+			<div class="basDiv">
+				<h3>Available Services</h3>
+				<dl>
+					<dt>Coffee Break Services</dt>
+					<dt>Food Services</dt>
+					<dt>Solutions for Rest Area</dt>
+					<dt>Filling of Vending Machines</dt>
+					<dt>Sales, Rental and Repair of Vending Machines</dt>
+					<dd> &nbsp;</dd>
+				</dl>
+
+			</div>
+			<div class="basDiv">
+				<h3>Yaniko inc.</h3>
+				<dl>
+					<dt>Adress</dt>
+					<dt>City, Province <em>A1B 1A2</em></dt>
+					<dt>CP 63148</dt>
+					<dt><strong>123.911.9111</strong></dt>
+					<dt><a href="mailto:email@gmail.com">email@gmail.com</a></dt>
+					<dd> &nbsp;</dd>
+					<dt><a href="../index.html"><strong><u>[ Français ]</u></strong></a></dt>
+					<dd> &nbsp;</dd>
+				</dl>
+			</div>
+
+
+
+			<h6> Yaniko inc.- Sales, rental, services and filling vending machines in the greater Montreal area. Coffee
+				Break Services. </br>Open 24/7
+				<br> @Yaniko.inc - Copyright </h6>
+		</div>
+
+
+	</div> <!-- Fin containeur -->
+
+
+
+	<div id="infoHaut">
+		<!-- Numero Telephone Haut de page -->
+		<a href="../index.html">
+			<h5> [ Français ]</h5>
+		</a> &nbsp;&nbsp; <strong>|</strong> &nbsp; &nbsp;
+		<h5> 123.911.9111 </h5>
+	</div>
+
+
+
+
+
+
+
+</body>
+
 </html>
