@@ -1725,7 +1725,7 @@ function NosProduits() {
   donnees +=
     "<ul class='listeArgProduits'><li>Pour le remplissage de machines distributices, de cafétières, de thermos ou autres</li><li>Frais en tout temps</li><li>Prix compétitifs</li><li>Livraison rapide</li><li>Grande variété de produits de qualité</li><li>Plusieurs catégories de produits dont sanitaire, café, chocolat, chips, rafraîchissements.</li></ul></br>";
   donnees +=
-    "<p class='produitFrais'>Consultez la liste ci-dessous pour avoir un aperçu de nos produits offerts. Si le produit que vous désirez n'est pas dans cette liste, il nous fera un grand plaisir de le dénicher pour vous. </br> Pour plus de renseignements, contacter le <span style='color:#C93A3A; font-weight:bold;'>(450)-441-2111</span>.</br></br><small><em>**Notez qu'il s'agit d'une liste exhaustive et nous détenons plusieurs autres produits en inventaire</em></small></p><hr></br>";
+    "<p class='produitFrais'>Consultez la liste ci-dessous pour avoir un aperçu de nos produits offerts. Si le produit que vous désirez n'est pas dans cette liste, il nous fera un grand plaisir de le dénicher pour vous. </br> Pour plus de renseignements, contacter le <span style='color:#C93A3A; font-weight:bold;'>(123)-911-9111</span>.</br></br><small><em>**Notez qu'il s'agit d'une liste exhaustive et nous détenons plusieurs autres produits en inventaire</em></small></p><hr></br>";
   donnees +=
     "<div class='categoriesDiv' style=\"background-image:url('images/produits/categorie/barre-chocolat-yaniko.jpg');\" onclick=\"affProdChoix(tabProduits,'categorie','Chocolat','affichage2')\"><h4>Chocolat</h4></div>";
   donnees +=

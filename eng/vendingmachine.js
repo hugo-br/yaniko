@@ -1739,7 +1739,7 @@ function NosProduits() {
   donnees +=
     "<ul class='listeArgProduits'><li>For filling vending machines, coffee makers or thermos</li><li>Always Fresh</li><li>Very competitive prices</li><li>Fast Delivery</li><li>Large variety of quality products</li><li>Many categories of products including sanitary, coffee, chips, etc.</li></ul></br>";
   donnees +=
-    "<p class='produitFrais'>Please consult the list below for an overview of some of our available products. If the product you want for your office is not in this list, it will be a true pleasure to find it for you. </br> For more informations, please contact us at <span style='color:#C93A3A; font-weight:bold;'>(450)-441-2111</span>.</br></br><small><em>**Please note that it is an exhaustive list and we have a lot more products in stock to offer</em></small></p><hr>";
+    "<p class='produitFrais'>Please consult the list below for an overview of some of our available products. If the product you want for your office is not in this list, it will be a true pleasure to find it for you. </br> For more informations, please contact us at <span style='color:#C93A3A; font-weight:bold;'>(123)-911-9111</span>.</br></br><small><em>**Please note that it is an exhaustive list and we have a lot more products in stock to offer</em></small></p><hr>";
   donnees +=
     "<div class='categoriesDiv' style=\"background-image:url('../images/produits/categorie/barre-chocolat-yaniko.jpg');\" onclick=\"affProdChoix(tabProduits,'categorie','Chocolat','affichage2')\"><h4>Chocolate</h4></div>";
   donnees +=
